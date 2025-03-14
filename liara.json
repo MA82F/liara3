@@ -1,5 +1,11 @@
 {
     "django": {
         "settingsFile": "calculatorHis/settings.py"
-    }
+    },
+    "disks": [
+        {
+            "name": "my-disk",
+            "mountTo": "database"
+        }
+    ]
 }
